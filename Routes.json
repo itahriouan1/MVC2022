@@ -1,0 +1,13 @@
+[{
+    "action":"Personne",
+    "Controller":"PersonneController::showPersonne"
+},
+{
+    "action":"addPersonne",
+    "Controller":"PersonneController::createPersonne"
+},
+{
+    "action":"/",
+    "Controller":"homeController::index"
+}
+]

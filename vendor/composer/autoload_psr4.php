@@ -9,4 +9,5 @@ return array(
     'src\\' => array($baseDir . '/src'),
     'Repository\\' => array($baseDir . '/Repository'),
     'Entity\\' => array($baseDir . '/Entity'),
+    'Controller\\' => array($baseDir . '/Controller'),
 );

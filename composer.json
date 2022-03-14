@@ -12,7 +12,8 @@
         "psr-4":{
             "src\\":"src/",
             "Entity\\":"Entity/",
-            "Repository\\":"Repository/"
+            "Repository\\":"Repository/",
+            "Controller\\":"Controller/"
         }
     },
     "require": {}
