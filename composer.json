@@ -1,0 +1,19 @@
+{
+    "name": "zakariaitahriouan/pdo-test2022",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "itahriouan zakaria",
+            "email": "zakariaitahriouan@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "src\\":"src/",
+            "Entity\\":"Entity/",
+            "Repository\\":"Repository/"
+        }
+    },
+    "require": {}
+}
