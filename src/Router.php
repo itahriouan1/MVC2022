@@ -28,7 +28,6 @@ class Router {
             if($route->action==$action){
                 $controller=$route->Controller;
                 $controller=explode('::', $controller);
-                var_dump($controller);
                 $controllerClass=$controller[0];
                 $controllerMethode=$controller[1];
                 $controllerClass = "Controller\\".$controllerClass;

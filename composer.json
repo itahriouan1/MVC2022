@@ -13,7 +13,8 @@
             "src\\":"src/",
             "Entity\\":"Entity/",
             "Repository\\":"Repository/",
-            "Controller\\":"Controller/"
+            "Controller\\":"Controller/",
+            "View\\":"View/"
         }
     },
     "require": {}

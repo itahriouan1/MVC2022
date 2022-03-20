@@ -3,6 +3,8 @@ namespace Controller;
 
 use Entity\Personne;
 use Repository\PersonneRepository;
+use View\View;
+use View\ViewManager;
 
 class PersonneController {
 
@@ -11,8 +13,9 @@ class PersonneController {
 
         $repo=new PersonneRepository();
         $personnes=$repo->findAll();
-
-        var_dump($personnes);
+        $viewManager = new ViewManager();
+        $x=2;
+        $viewManager->render('Personne\afficher',['x'=>$x, 'personnes'=>$personnes]);
     }
 
     public function createPersonne(){

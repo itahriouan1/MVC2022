@@ -2,9 +2,12 @@
 
 namespace Controller;
 
+use View\ViewManager;
+
 class homeController{
 
     public function index(){
-        echo "Acceuil";
+        $viewManager= new ViewManager();
+        $viewManager->render('index');
     }
 }

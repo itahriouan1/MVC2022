@@ -11,6 +11,10 @@ class ComposerStaticInit57fbf088c01a8397fbcfe662b9fabda7
         array (
             'src\\' => 4,
         ),
+        'V' => 
+        array (
+            'View\\' => 5,
+        ),
         'R' => 
         array (
             'Repository\\' => 11,
@@ -29,6 +33,10 @@ class ComposerStaticInit57fbf088c01a8397fbcfe662b9fabda7
         'src\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'View\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/View',
         ),
         'Repository\\' => 
         array (
