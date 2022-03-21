@@ -3,6 +3,7 @@ namespace Controller;
 
 use Entity\Personne;
 use Repository\PersonneRepository;
+use src\Request;
 use View\View;
 use View\ViewManager;
 
@@ -16,6 +17,9 @@ class PersonneController {
         $viewManager = new ViewManager();
         $x=2;
         $viewManager->render('Personne\afficher',['x'=>$x, 'personnes'=>$personnes]);
+        $Request = new Request();
+        var_dump($Request->getParams('GET'));
+
     }
 
     public function createPersonne(){

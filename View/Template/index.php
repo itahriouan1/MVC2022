@@ -8,7 +8,11 @@
 </head>
 <body>
     <?php
+
+use View\ViewGenerator;
+
      echo "Acceuil";
+     echo "<a href='".ViewGenerator::path('Personne',['id'=>6])."'> Personnes </a>";
      ?>
 </body>
 </html>
