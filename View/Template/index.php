@@ -12,6 +12,7 @@
 use View\ViewGenerator;
 
      echo "Acceuil";
+     echo "<br>";
      echo "<a href='".ViewGenerator::path('Personne',['id'=>6])."'> Personnes </a>";
      ?>
 </body>
